@@ -155,22 +155,22 @@ let cardFactory = (name) => {
 }
 //---- make cards ----//
 let cards = [
-    cardFactory("cactus"),
-    cardFactory("donut"),
-    cardFactory("moon"),
-    cardFactory("mushroom"),
-    cardFactory("palmtree"),
-    cardFactory("peach"),
-    cardFactory("pepper"),
-    cardFactory("flower"),
-    cardFactory("cactus"),
-    cardFactory("donut"),
-    cardFactory("moon"),
-    cardFactory("mushroom"),
-    cardFactory("palmtree"),
-    cardFactory("peach"),
-    cardFactory("pepper"),
-    cardFactory("flower"),
+    cardFactory("public/cactus"),
+    cardFactory("public/donut"),
+    cardFactory("public/moon"),
+    cardFactory("public/mushroom"),
+    cardFactory("public/palmtree"),
+    cardFactory("public/peach"),
+    cardFactory("public/pepper"),
+    cardFactory("public/flower"),
+    cardFactory("public/cactus"),
+    cardFactory("public/donut"),
+    cardFactory("public/moon"),
+    cardFactory("public/mushroom"),
+    cardFactory("public/palmtree"),
+    cardFactory("public/peach"),
+    cardFactory("public/pepper"),
+    cardFactory("public/flower"),
 ];
 
 //---- Durstenfeld shuffle cards ----//
