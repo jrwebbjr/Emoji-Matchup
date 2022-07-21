@@ -1,0 +1,163 @@
+body{
+    background-color: black;
+    font-family: export,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    cursor: default;
+}
+header{
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+#main-title{
+    color: White;
+    font-size: 130px;
+    justify-content: center;
+    padding: 50px;;
+}
+.score-bar{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    /* border: 5px solid white; */
+}
+#move-counter{
+    color: chartreuse;
+}
+#match-counter{
+    color: chartreuse; 
+}
+#computer-match{
+    color: red;
+}
+#computer-move{
+    color: red;
+}
+.button-bar{
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+#new-gameBtn{
+    color: white;
+    font-size: 24px;
+    padding: 25px 40px;
+    float: left;
+    border: 5px solid white;
+    background-color: black;
+    cursor: pointer;
+}
+
+#hard-modeBtn{
+    color: white;
+    font-size: 24px;
+    padding: 25px 40px;
+    float: left;
+    border: 5px solid white;
+    background-color: black;
+    cursor: pointer;
+}
+.card-container{
+    display:grid;
+    grid-template-columns: repeat(4, 200px);
+    grid-template-rows: 200 px auto;
+    gap: 25px;
+    justify-content: center; 
+    justify-items: center;
+}
+.selected{
+    box-shadow: 0px 0px 25px 5px White;
+}
+.card-match{
+    box-shadow: 0px 0px 25px 5px chartreuse;
+}
+.not-match{
+    box-shadow: 0px 0px 25px 5px red;
+}
+.card-back{
+    box-shadow: 10px 10px 20px 7px rgb(69, 69, 69);
+}
+
+.grid1{
+    grid-area: 1/1/1/1;
+    cursor: pointer;
+}
+.grid2{
+    grid-area: 1/2/1/2;
+    cursor: pointer;
+}
+.grid3{
+    grid-area: 1/3/1/3;
+    cursor: pointer;
+}
+.grid4{
+    grid-area: 1/4/1/4;
+    cursor: pointer;
+}
+.grid5{
+    grid-area: 2/1/2/1;
+    cursor: pointer;
+}
+.grid6{
+    grid-area: 2/2/2/2;
+    cursor: pointer;
+}
+.grid7{
+    grid-area: 2/3/2/3;
+    cursor: pointer;
+}
+.grid8{
+    grid-area: 2/4/2/4;
+    cursor: pointer;
+}
+.grid9{
+    grid-area: 3/1/3/1;
+    cursor: pointer;
+}
+.grid10{
+    grid-area: 3/2/3/2;
+    cursor: pointer;
+}
+.grid11{
+    grid-area: 3/3/3/3;
+    cursor: pointer;
+}
+.grid12{
+    grid-area: 3/4/3/4;
+    cursor: pointer;
+}
+.grid13{
+    grid-area: 4/1/4/1;
+    cursor: pointer;
+}
+.grid14{
+    grid-area: 4/2/4/2;
+    cursor: pointer;
+}
+.grid15{
+    grid-area: 4/3/4/3;
+    cursor: pointer;
+}
+.grid16{
+    grid-area: 4/4/4/4;
+    cursor: pointer;
+}
+#modal{
+    /* display: none; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #0f0f0f;
+    padding: 8px;
+    border-radius: 50%;
+}
+  
+.show{
+    display: flex!important;
+}
